@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+
+  &__img-container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    padding: 3.2rem;
+  }
+
+  &__img-border {
+    background: var(--primaryColor);
+    border: 0.5rem solid var(--primaryColor);
+    border-radius: 1rem;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__info {
+    padding: 3.2rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    &-text {
+      max-width: 41.5rem;
+    }
+  }
+}

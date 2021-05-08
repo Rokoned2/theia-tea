@@ -1,0 +1,22 @@
+.products {
+  display: flex;
+  max-width: 117rem;
+  margin: 0 auto;
+  &__info {
+    display: flex;
+    flex: 1;
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+  &__inventory {
+    display: flex;
+    flex: 3;
+  }
+  &__slide {
+    padding: 1.5rem 1rem 0 1rem;
+    width: 33.3%;
+  }
+  &__slide-img {
+    width: 100%;
+  }
+}

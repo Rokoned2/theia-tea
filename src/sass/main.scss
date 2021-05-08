@@ -1,0 +1,42 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// @import "themes/blue-mode";
+// @import "themes/purple-mode";
+// @import "themes/light-mode";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+// @import "components/button";
+// @import "components/form";
+// @import "components/post";
+// @import "components/browser-page-appereance";
+
+// @import "layout/footer";
+// @import "layout/grid";
+@import "base/base";
+@import "base/typography";
+
+@import "components/header";
+@import "components/contact";
+@import "components/banner";
+@import "components/form";
+@import "components/products";
+@import "components/about";
+@import "components/productCard";
+@import "components/featuredProducts";
+@import "components/skills";
+@import "components/skill-slide";
+@import "components/services";
+@import "components/serviceCard";
+@import "components/footer";
+
+@import "layout/navbar";
+@import "layout/section";
+
+@import "pages/home";
+// @import "pages/projects";
+// @import "pages/contact";

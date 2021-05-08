@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--secondaryText);
+}
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 1rem;
+      font-family: 5rem;
+    }
+    /*
+        animation-delay: 3s;
+        animation-iteration-count: 3;
+        */
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+    animation: moveInRight 1s ease-out;
+
+    @include respond(phone) {
+      letter-spacing: 0.5rem;
+    }
+  }
+}
+.heading-secondary {
+  font-size: 2.8rem;
+  color: var(--mainText);
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+  // text-align: center;
+}
+
+.heading-tertiary {
+  font-size: 2.4rem;
+  color: var(--mainText);
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+}
+
+.heading-cuaternary {
+}
+
+.paragraph {
+  font-size: $default-font-size;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+.primary-text {
+  font-size: 3.2rem;
+  font-family: "Grand Hotel", cursive;
+}
+
+.secondary-text {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}

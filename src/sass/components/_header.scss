@@ -1,0 +1,15 @@
+.banner {
+  position: relative;
+  min-height: calc(100vh - 5rem);
+  overflow: hidden;
+  align-items: center;
+  display: flex;
+  width: "100%";
+  object-fit: cover;
+  background-size: cover;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../img/main-bcg.jpeg") center/cover no-repeat;
+}
